@@ -1,10 +1,10 @@
 var pg = require('pg')
 
 var config = {
-    host: '******',
-    user: '******',
-    database: '******',
-    password:'******'
+    host: 'localhost',
+    user: 'postgres',
+    database: 'wakeuper',
+    password:'syl123456'
 };
 
 var pool = new pg.Pool(config);
