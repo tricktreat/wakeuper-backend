@@ -1,0 +1,16 @@
+{
+  "name": "wakeuper",
+  "version": "1.0.0",
+  "description": "苏州大学wakeup俱乐部微信小程序后台",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "author": "Anthony",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "pg": "^6.4.0"
+  }
+}
