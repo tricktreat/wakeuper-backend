@@ -30,6 +30,8 @@ var getSchedule=require('./routes/getSchedule')
 var delBroadcast=require('./routes/delBroadcast')
 var getLastSignTime=require('./routes/getLastSignTime')
 var getSignRecToday=require('./routes/getSignRecToday')
+var dataCrypt=require('./routes/dataCrypt')
+
 
 
 
@@ -63,3 +65,4 @@ app.use('/getSchedule',getSchedule);
 app.use('/delBroadcast',delBroadcast);
 app.use('/getLastSignTime',getLastSignTime);
 app.use('/getSignRecToday',getSignRecToday);
+app.use('/dataCrypt',dataCrypt);
