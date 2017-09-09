@@ -5,7 +5,7 @@ var connection=require('../db/connection');
 
 router.get('/allBroadcast',function(req,res,next){
 	var args = URL.parse(req.url, true).query;
-	connection.query('select * from broadcast order by createtime desc limit $1',[args.n],function(err,result){
+	connection.query('select * from broadcast order by createtime desc limit 5',[],function(err,result){
 		if(err){
 			console.log(err)
 			res.status(400).send(err);

@@ -31,6 +31,19 @@ var delBroadcast=require('./routes/delBroadcast')
 var getLastSignTime=require('./routes/getLastSignTime')
 var getSignRecToday=require('./routes/getSignRecToday')
 var dataCrypt=require('./routes/dataCrypt')
+var getMyMonthRec=require('./routes/getMyMonthRec')
+var getMyAllRec=require('./routes/getMyAllRec')
+var kcqd=require('./routes/kcqd')
+var getJXL=require('./routes/getJXL')
+var getKCrec=require('./routes/getKCrec')
+var getMyKCrec=require('./routes/getMyKCrec')
+var getAccessToken=require('./routes/getAccessToken')
+
+
+
+
+
+
 
 
 
@@ -66,3 +79,15 @@ app.use('/delBroadcast',delBroadcast);
 app.use('/getLastSignTime',getLastSignTime);
 app.use('/getSignRecToday',getSignRecToday);
 app.use('/dataCrypt',dataCrypt);
+app.use('/getMyMonthRec',getMyMonthRec);
+app.use('/getMyAllRec',getMyAllRec);
+app.use('/kcqd',kcqd);
+app.use('/getJXL',getJXL);
+app.use('/getKCrec',getKCrec);
+app.use('/getMyKCrec',getMyKCrec);
+app.use('/getAccessToken',getAccessToken);
+
+
+
+
+
